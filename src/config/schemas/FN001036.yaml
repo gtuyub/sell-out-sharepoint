@@ -1,0 +1,33 @@
+source:
+
+ site_id : 8e167bd3-2e2a-415a-b973-1c771961cbee,026a7f92-1c2d-44b9-8d6e-c7507a154d5c
+ library_id: b!03sWjiouWkG5cxx3GWHL7pJ_agItHLlEjW7HUHoVTVx-nTM6sDIkRY-MX--3uVqw
+ folder_id : 012CTEHBVNVVKB6IK7VBGY4424SWDB2EZ4
+
+column_mappings:
+
+ Fecha : record_date
+ Cliente : end_customer_name
+ Codigo de Barras : bar_code
+ Estado : end_customer_state
+ Municipio : end_customer_city
+ Especialidad : end_customer_channel
+ Cantidad : units
+ Monto : value
+ C.P : zip_code
+
+column_dtypes:
+ 
+ Fecha : date
+ Cliente : str
+ Codigo de Barras : str
+ Estado : str
+ Municipio : str
+ Especialidad : str
+ Cantidad : int
+ Monto : float
+ C.P : str
+
+
+
+

@@ -1,0 +1,48 @@
+source:
+
+ site_id : 8e167bd3-2e2a-415a-b973-1c771961cbee,026a7f92-1c2d-44b9-8d6e-c7507a154d5c
+ library_id: b!03sWjiouWkG5cxx3GWHL7pJ_agItHLlEjW7HUHoVTVx-nTM6sDIkRY-MX--3uVqw
+ list_id : '3a339d7e-32b0-4524-8f8c-5fefb7b95ab0'
+ folder_id: 012CTEHBXCCZUY4XTZ6RF2CWD6IDPNCZTU
+
+
+target:
+
+ table : clinical_sales 
+
+columns:
+
+ FECHA : 
+  sql_field : record_date
+  type : date
+ 
+ CLIENTE :
+  sql_field : end_customer_name
+  type : str
+
+ CODIGO DE BARRAS :
+  sql_field : bar_code
+  type : str
+
+ ESTADO : 
+  sql_field : end_customer_state
+  type : str
+ 
+ MUNICIPIO :
+  sql_field : end_customer_city
+  type : str
+
+ ESPECIALIDAD :
+  sql_field : end_customer_channel
+  type : str
+
+ UNIDADES : 
+  sql_field : units
+  type : int
+
+ VENTAS :
+  sql_field : value
+  type : float  
+
+
+
